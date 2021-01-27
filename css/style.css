@@ -1,7 +1,41 @@
 
 /* Clases */
 
+.eventIcon {
+    width: 3.8em;
+    height: 3.8em;
+    margin: -0.3em 1em -0.3em 0;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    background-color: #f9f6f6;
+}
 
+.eventDateTop {
+    margin-top: 5em;
+}
+
+.eventDateBottom {
+    margin-top: .5rem;
+}
 
 /* IDs */
 
+#imgGrad {
+    background: url(../img/graduation-hat.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
+#imgDiploma {
+    background: url(../img/diploma.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
+#imgUPM {
+    width: 8em;
+}

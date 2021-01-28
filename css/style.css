@@ -4,7 +4,7 @@
 .eventIcon {
     width: 3.8em;
     height: 3.8em;
-    margin: -0.3em 1em -0.3em 0;
+    margin: -0.3em 1em 0 0;
     border-radius: 50%;
     background-color: rgb(238, 238, 238);
     background-color: #f9f6f6;
@@ -16,6 +16,11 @@
 
 .eventDateBottom {
     margin-top: .5rem;
+}
+
+.cardTitleContainer {
+    --bs-gutter-x: 0;
+    align-items: center;
 }
 
 /* IDs */
@@ -36,6 +41,28 @@
     border-radius: 0;
 }
 
+#imgVEGP {
+    background: url(../img/VEGP.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
+#imgVFDE {
+    background: url(../img/automotive.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
 #imgUPM {
-    width: 8em;
+    width: 7em;
+}
+#imgKTH {
+    width: 7em;
+}
+#imgVCC {
+    width: 7em;
 }

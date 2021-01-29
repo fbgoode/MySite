@@ -23,6 +23,11 @@
     align-items: center;
 }
 
+.timelineWidget {
+    margin:auto;
+    max-width: 43em;
+}
+
 /* IDs */
 
 #imgGrad {
@@ -57,6 +62,22 @@
     border-radius: 0;
 }
 
+#imgVOL {
+    background: url(../img/help.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
+#imgSTARTUP {
+    background: url(../img/startup.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
 #imgUPM {
     width: 7em;
 }
@@ -64,5 +85,11 @@
     width: 7em;
 }
 #imgVCC {
+    width: 7em;
+}
+#imgIUPI {
+    width: 7em;
+}
+#imgUOC {
     width: 7em;
 }

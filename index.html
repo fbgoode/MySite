@@ -105,52 +105,94 @@
         </small></p>
       </div>
       <!----------------- MY WORK LIFE ----------------->
-      <div id="myWorkLife" class="container mt-5 timelineWidget">
-        <div class="row">
-          <div id="timeLine" class="col-2">
-
+      <div id="myWorkLife" class="container my-5 timelineWidget">
+        <div class="row position-relative">
+          <div id="timeLine" class="col-1 align-self-stretch d-flex flex-column ps-0">
+            <div class="timeStart timeLine"></div>
+            <div class="timeMid timeLine"></div>
+            <div class="timeEnd timeLine"></div>
           </div>
           <div id="events" class="col">
 
-            <div class="eventDateTop h2 ms-1">2021</div>
+            
+            <div class="eventDateTop h2 ms-1">Now</div>
             <div class="card">
               <div class="card-body">
                 <div class="row cardTitleContainer">
                   <div class="col-auto p-0">
-                    <div id="imgVOL" class="eventIcon"></div>
+                    <div id="imgDiploma" class="eventIcon"></div>
                   </div>
                   <div class="col p-0">
-                    <h5 class="card-title">Volunteering & business planning</h5>
-                    <h6 class="card-subtitle text-muted">Around the world</h6>
+                    <h5 class="card-title">Full Stack Developer Bootcamp</h5>
+                    <h6 class="card-subtitle text-muted">GeeksHubs Academy</h6>
                   </div>
                 </div>
-                <p class="card-text mt-3 mb-2">I volunteered at three NGOs and planned to start a business while backpacking during a sabattical.</p>
-                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse" data-bs-target="#collapseVOL" href="" role="button" aria-expanded="false" aria-controls="collapseVOL"><small><u>Click here</u> to read more</small></p>
-                <div class="collapse mt-3" id="collapseVOL">
+                <p class="card-text mt-3 mb-2">I'm currently taking this 3 month long software development intensive training.</p>
+                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse" data-bs-target="#collapseGEEKS" href="" role="button" aria-expanded="false" aria-controls="collapseGEEKS"><small><u>Click here</u> to read more about my activities at GeeksHubs</small></p>
+                <div class="collapse mt-3" id="collapseGEEKS">
                   <ul>
                     <li>
-                      I realised I wanted to start a business, so I started building knowledge on the subject and planning.
+                      I'm formalizing my self-taught programming skills and learning about agile methodologies, testing, QA and the latest and most important tools used in front and back-end development.
                     </li>
                     <li>
-                      Learned to manage a Wordpress website and develop custom plugins with PHP, JS and HTML.
-                    </li>
-                    <li>
-                      Project planning and fundraising for <a href="http://agsamiti.org/">Adi Gram Samiti</a> in India.
-                    </li>
-                    <li>
-                      Taught 6-15 year olds English and <abbr title="Science, Technology, Engineering & Mathematics">STEM</abbr> at <a href="http://www.projectfavela.org/">Project Favela</a> in Brazil. Got awarded <b>volunteer of the month</b>.
-                    </li>
-                    <li>
-                      Managed stray dog foster home for <a href="https://happydogskohchang.org/">Happy Dogs Koh Chang</a> in Thailand.
+                      I'm building a project portfolio: check out <a href="https://github.com/fbgoode">my GitHub page</a> to see my progress.
                     </li>
                   </ul>
+                  <div class="row align-items-center mb-2">
+                    <div class="col-auto"><img id="imgGEEKS" src="img/GEEKS.svg" alt="GeeksHubs Logo"></div>
+                    <div class="col fw-light"><small>Part of the Alfatec Group, GeeksHubs is reinventing the future of tech education and recruitment. They train IT professionals in the latest technologies that companies need in an applied way and move fast to adapt to the reality of the market.</small></div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="eventDateBottom h2 ms-1">2020</div>
-            
-            <div class="eventDateTop h2 ms-1">2020</div>
+
+            <div id="eventDate1" class="eventSpacer">
+              <div class="eventDateContainer ms-1">
+                <div class="lineLeft">
+                </div>
+                <div class="eventDate h2">Now</div>
+              </div>
+            </div>
+
             <div class="card">
+              <div class="card-body">
+                <div class="row cardTitleContainer">
+                  <div class="col-auto p-0">
+                    <div id="imgINNOV" class="eventIcon"></div>
+                  </div>
+                  <div class="col p-0">
+                    <h5 class="card-title">Entrepreneur in residence</h5>
+                    <h6 class="card-subtitle text-muted">Demium Startups</h6>
+                  </div>
+                </div>
+                <p class="card-text mt-3 mb-2">I was selected to take part in a pre-idea pre-team startup incubation program.</p>
+                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse" data-bs-target="#collapseDEMIUM" href="" role="button" aria-expanded="false" aria-controls="collapseDEMIUM"><small><u>Click here</u> to read more about my work at Demium</small></p>
+                <div class="collapse mt-3" id="collapseDEMIUM">
+                  <ul>
+                    <li>
+                      Was one of the winners of the <a href="https://www.youtube.com/watch?v=PxNT41YPFAg">AllStartup event</a> in Valencia.
+                    </li>
+                    <li>
+                      Worked on development and validation of digital business ideas using Design Thinking and Lean Startup.
+                    </li>
+                  </ul>
+                  <div class="row align-items-center mb-2">
+                    <div class="col-auto"><img id="imgDEMIUM" src="img/DEMIUM.png" alt="Demium Logo"></div>
+                    <div class="col fw-light"><small>Demium creates startups from scratch at 8 incubators in 5 countries. Selected entrepreneurs get support throughout their journey, from finding a co-founder to developing an idea into a verified business model and helping to secure seed investment.</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="eventSpacer h2">
+              <div id="eventDate2" class="eventDateContainer ms-1">
+                <div class="lineLeft">
+                </div>
+                <div class="eventDate h2">2020</div>
+              </div>
+            </div>
+            
+            <div id="IUPI" class="card">
               <div class="card-body">
                 <div class="row cardTitleContainer">
                   <div class="col-auto p-0">
@@ -268,7 +310,7 @@
                     <h6 class="card-subtitle text-muted">At Volvo Car Group</h6>
                   </div>
                 </div>
-                <p class="card-text mt-3 mb-2">I was responsible for Volvo's vehicle suspensions at a system level.</p>
+                <p class="card-text mt-3 mb-2">I was responsible for Volvo's vehicle suspensions at the system level.</p>
                 <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse" data-bs-target="#collapseVFDE" href="" role="button" aria-expanded="false" aria-controls="collapseVFDE"><small><u>Click here</u> to read more about my work at Volvo</small></p>
                 <div class="collapse mt-3" id="collapseVFDE">
                   <ul>
@@ -425,6 +467,10 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/TweenMax.min.js"></script>
+    <script src="js/lib/ScrollMagic.min.js"></script>
+    <script src="js/lib/animation.gsap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

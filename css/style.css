@@ -10,6 +10,11 @@
     background-color: #f9f6f6;
 }
 
+.eventSpacer {
+    height:calc(50vh + 1em);
+    margin: 0.5em 0;
+}
+
 .eventDateTop {
     margin-top: 5em;
 }
@@ -25,7 +30,45 @@
 
 .timelineWidget {
     margin:auto;
-    max-width: 43em;
+    max-width: 42em;
+    padding-left: 1.3em;
+}
+
+.timeLine {
+    width:0.3em;
+}
+
+.timeStart {
+    height:10em;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.timeEnd {
+    height:10em;
+    background: linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.timeMid {
+    flex-grow: 1;
+    background:black;
+}
+
+.lineLeft {
+    position: absolute;
+    left: 0.3rem;
+    width: 3.8rem;
+    height: 2.2rem;
+    background: url(../img/timeline.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.eventDate {
+    margin-left: -0.7rem;
+    position: relative;
+    padding-left: 0.7rem;
+    background: white;
 }
 
 /* IDs */
@@ -78,6 +121,14 @@
     border-radius: 0;
 }
 
+#imgINNOV {
+    background: url(../img/startup2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
 #imgUPM {
     width: 7em;
 }
@@ -91,5 +142,11 @@
     width: 7em;
 }
 #imgUOC {
+    width: 7em;
+}
+#imgDEMIUM {
+    width: 7em;
+}
+#imgGEEKS {
     width: 7em;
 }

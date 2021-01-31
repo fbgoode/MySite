@@ -8,6 +8,24 @@ main {
     max-width:50em;
 }
 
+.bigLink:hover {
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+
+.bigLink {
+    transition: 0.5s;
+}
+
+.contactInfo {
+    max-width:21em;
+}
+
+.fotoPerfil {
+    width:16em;
+    max-width:100%;
+}
+
 .event {
     margin-left: 8%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0.5em;
@@ -185,4 +203,18 @@ main {
 }
 #imgGEEKS {
     width: 7em;
+}
+
+/* Media Queries */
+
+@media (max-width: 575.98px) {
+    .contactText {
+        font-size:100%
+    }
+    .contactTextContainer {
+        padding:0;
+    }
+    .contactInfo {
+        max-width:18em;
+    }
 }

@@ -4,13 +4,17 @@ main {
 
 /* Clases */
 
+.index {
+    max-width:50em;
+}
+
 .event {
     margin-left: 8%;
-    box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 1em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0.5em;
 }
 
 .cardTLDR {
-    box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 1em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0.5em;
 }
 
 .eventIcon {
@@ -74,9 +78,6 @@ main {
     margin:0;
 }
 
-.eventDate {
-}
-
 .eventSpacer {
     width: 80%;
     height:calc(50vh + 1em);
@@ -87,6 +88,14 @@ main {
 .TLDR {
     margin-bottom:0.2em;
     line-height: 1.2em;
+}
+
+.signature {
+    width:10em;
+}
+
+.socialIcon {
+    width:2em;
 }
 
 /* IDs */

@@ -183,6 +183,14 @@ main {
     border-radius: 0;
 }
 
+#imgBORN {
+    background: url(../img/born.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
 #imgUPM {
     width: 7em;
 }

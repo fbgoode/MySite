@@ -127,6 +127,14 @@ main {
     padding-bottom:10em;
 }
 
+#imgTranslate {
+    background: url(../img/translate.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+}
+
 #imgGrad {
     background: url(../img/graduation-hat.svg);
     background-size: contain;

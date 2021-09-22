@@ -57,10 +57,10 @@ let tweenE52 = TweenMax.from("#event5-2", 1, {
     x: 1000,
     ease: Power2.easeOut
 });
-let tweenE53 = TweenMax.from("#event5-3", 1, {
-    x: 1000,
-    ease: Power2.easeOut
-});
+// let tweenE53 = TweenMax.from("#event5-3", 1, {
+//     x: 1000,
+//     ease: Power2.easeOut
+// });
 let tweenD6 = TweenMax.to("#eventDate6", 1, {
     y: halfwindow,
     ease: Power2.easeInOut
@@ -152,11 +152,11 @@ new ScrollMagic.Scene({
     .setTween(tweenE52)
     .addTo(controller);
 new ScrollMagic.Scene({
-        triggerElement: "#event5-3"
-    })
-    .setTween(tweenE53)
-    .addTo(controller);
-new ScrollMagic.Scene({
+//         triggerElement: "#event5-3"
+//     })
+//     .setTween(tweenE53)
+//     .addTo(controller);
+// new ScrollMagic.Scene({
         triggerElement: "#event6"
     })
     .setTween(tweenD6)

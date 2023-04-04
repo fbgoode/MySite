@@ -1,0 +1,25 @@
+{
+  "name": "mysite",
+  "description": "<h1 align=\"center\">\r   <br>My website\r </h1>",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbgoode/MySite.git"
+  },
+  "author": "Fede Baez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbgoode/MySite/issues"
+  },
+  "homepage": "https://github.com/fbgoode/MySite#readme",
+  "devDependencies": {
+    "nuxt": "^3.3.3"
+  }
+}

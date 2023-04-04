@@ -1,0 +1,517 @@
+<template>
+        <div id="titulo" class="index container mt-5">
+            <h1 class="display-3">My work life</h1>
+            <p class="lead">
+                Go through my professional and academic life in reverse chronological order.
+            </p>
+            <hr class="mt-5">
+            <p class="text-muted"><small>
+                    If you're looking for a more traditionally formatted résumé, visit <a
+                        href="https://www.linkedin.com/in/federicobaez/" target="_blank">my LinkedIn page</a> or <a
+                        href="mailto:info@fbaez.com?subject=CV%20enquiry&body=Hi%20Federico,%0D%0AI%27d%20like%20you%20to%20please%20send%20me%20your%20CV."
+                        target="_blank">ask me for my CV</a>.
+                </small></p>
+        </div>
+        <div id="myWorkLifeContainer" class="container-fluid">
+            <div id="myWorkLife" class="container my-5 timelineWidget">
+
+                <div class="row p-3 pe-4 mb-5">
+                    <div class="card p-0 cardTLDR">
+                        <div class="card-body py-2">
+                            <p class="TLDR"><small><b><abbr title="Too Long, Didn't Read">TL;DR:</abbr></b> I'm an Engineer and
+                                    MBA with experience in Mechanical Design, Software Development and Entrepreneurship.</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div id="timeLine" class="col-auto align-self-stretch d-flex flex-column px-0">
+                        <div class="timeStart timeLine"></div>
+                        <div class="timeMid timeLine"></div>
+                        <div class="timeEnd timeLine"></div>
+                    </div>
+
+                    <div id="events" class="col ps-0">
+
+                        <div class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgTranslate" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Engineering Team Lead</h5>
+                                        <h6 class="card-subtitle text-muted">At Languagewire</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card event mt-3">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgTranslate" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Full Stack Engineer</h5>
+                                        <h6 class="card-subtitle text-muted">At Languagewire</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card event mt-3">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgDiploma" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Intensive web development training</h5>
+                                        <h6 class="card-subtitle text-muted">At GeeksHubs Academy</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">I took a 4 month long software development intensive course to cement my self-learned knowledge.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="eventSpacer h2 container">
+                            <div id="eventDate1" class="eventDateContainer row">
+                                <div class="lineLeft col-1">
+                                </div>
+                                <div class="eventDate h2 col">2021</div>
+                            </div>
+                        </div>
+
+                        <div id="event1" class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgINNOV" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Entrepreneur in residence</h5>
+                                        <h6 class="card-subtitle text-muted">At Demium Startups</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">I was selected to take part in a pre-idea pre-team startup
+                                    incubation program.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseDEMIUM" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseDEMIUM"><small><u>Click here</u> to read more about my work at
+                                        Demium</small></p>
+                                <div class="collapse mt-3" id="collapseDEMIUM">
+                                    <ul>
+                                        <li>
+                                            Was one of the winners of the <a
+                                                href="https://www.youtube.com/watch?v=PxNT41YPFAg">AllStartup event</a> in
+                                            Valencia.
+                                        </li>
+                                        <li>
+                                            Worked on development and validation of digital business ideas using Design Thinking
+                                            and Lean Startup.
+                                        </li>
+                                    </ul>
+                                    <div class="row align-items-center mb-2">
+                                        <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgDEMIUM"
+                                                src="/img/DEMIUM.png" alt="Demium Logo"></div>
+                                        <div class="col-sm fw-light"><small>Demium creates startups from scratch at 8 incubators
+                                                in 5 countries. Selected entrepreneurs get support throughout their journey,
+                                                from finding a co-founder to developing an idea into a verified business model
+                                                and helping to secure seed investment.</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="eventSpacer h2 container">
+                            <div id="eventDate2" class="eventDateContainer row">
+                                <div class="lineLeft col-1">
+                                </div>
+                                <div class="eventDate h2 col">2020</div>
+                            </div>
+                        </div>
+
+                        <div id="event2" class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgSTARTUP" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Co-founder and technical CEO</h5>
+                                        <h6 class="card-subtitle text-muted">At iupibox</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">I co-founded an E-Commerce startup and took care of execution,
+                                    technology and operations.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseIUPI" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseIUPI"><small><u>Click here</u> to read more about my work at
+                                        iupibox</small></p>
+                                <div class="collapse mt-3" id="collapseIUPI">
+                                    <ul>
+                                        <li>
+                                            Developed a web platform for subscription services with custom functions based on
+                                            Wordpress, PHP, JS and HTML (no longer live).
+                                        </li>
+                                        <li>
+                                            Led project and managed four people. On site and remote.
+                                        </li>
+                                        <li>
+                                            Defined and audited company processes. Reduced order management times in ~80%
+                                            through automation & PDCA.
+                                        </li>
+                                        <li>
+                                            The business was terminated in the midst of the COVID crisis, but returned an
+                                            invaluable learning experience.
+                                        </li>
+                                    </ul>
+                                    <div class="row align-items-center mb-2">
+                                        <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgIUPI" src="/img/IUPI.png"
+                                                alt="iupibox Logo"></div>
+                                        <div class="col-sm fw-light"><small>IUPIBOX offered a monthly subscription service for
+                                                vegans, vegetarians and veg-curious foodies. In parallel, IUPIBOX carried out
+                                                sampling marketing and market research services for some of the largest vegan
+                                                and organic food brands in Spain.</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="event2-2" class="card event mt-3">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgDiploma" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Executive MBA</h5>
+                                        <h6 class="card-subtitle text-muted">At Universitat Oberta de Catalunya</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">Trough this degree I acquired the necessary skills to start a
+                                    business or qualify for a management position.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseUOC" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseUOC"><small><u>Click here</u> to read more about my activities at
+                                        UOC</small></p>
+                                <div class="collapse mt-3" id="collapseUOC">
+                                    <ul>
+                                        <li>
+                                            Specialised on Entrepreneurship & Innovation.
+                                        </li>
+                                        <li>
+                                            Wrote a full business plan for a food & beverage e-commerce business.
+                                        </li>
+                                        <li>
+                                            Attended a week-long intensive soft skill training event.
+                                        </li>
+                                    </ul>
+                                    <div class="row align-items-center mb-2">
+                                        <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgUOC" src="/img/UOC.png"
+                                                alt="UOC Logo"></div>
+                                        <div class="col-sm fw-light"><small>According to the <a
+                                                    href="http://rankingfso.org/fso/ranking-2019">FSO higher education
+                                                    ranking</a>, UOC's Executive MBA is considered the best Spanish language
+                                                online MBA program in the world.</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="eventSpacer h2 container">
+                            <div id="eventDate3" class="eventDateContainer row">
+                                <div class="lineLeft col-1">
+                                </div>
+                                <div class="eventDate h2 col">2018</div>
+                            </div>
+                        </div>
+
+                        <div id="event3" class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgVOL" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Volunteering & business planning</h5>
+                                        <h6 class="card-subtitle text-muted">Around the world</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">I volunteered at three NGOs and planned to start a business while
+                                    backpacking during a sabattical.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseVOL" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseVOL"><small><u>Click here</u> to read more</small></p>
+                                <div class="collapse mt-3" id="collapseVOL">
+                                    <ul>
+                                        <li>
+                                            I realised I wanted to start a business, so I started building knowledge on the
+                                            subject and planning.
+                                        </li>
+                                        <li>
+                                            Learned to manage a Wordpress website and develop custom plugins with PHP, JS and
+                                            HTML.
+                                        </li>
+                                        <li>
+                                            Project planning and fundraising for <a href="http://agsamiti.org/">Adi Gram
+                                                Samiti</a> in India.
+                                        </li>
+                                        <li>
+                                            Taught 6-15 year olds English and <abbr
+                                                title="Science, Technology, Engineering & Mathematics">STEM</abbr> at <a
+                                                href="http://www.projectfavela.org/">Project Favela</a> in Brazil. Got awarded
+                                            <b>volunteer of the month</b>.
+                                        </li>
+                                        <li>
+                                            Managed stray dog foster home for <a href="https://happydogskohchang.org/">Happy
+                                                Dogs Koh Chang</a> in Thailand.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="eventSpacer h2 container">
+                            <div id="eventDate4" class="eventDateContainer row">
+                                <div class="lineLeft col-1">
+                                </div>
+                                <div class="eventDate h2 col">2017</div>
+                            </div>
+                        </div>
+
+                        <div id="event4" class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgVFDE" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">First Design Engineer</h5>
+                                        <h6 class="card-subtitle text-muted">At Volvo Car Group</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">I was responsible for Volvo's vehicle suspensions at the system
+                                    level.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseVFDE" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseVFDE"><small><u>Click here</u> to read more about my work at
+                                        Volvo</small></p>
+                                <div class="collapse mt-3" id="collapseVFDE">
+                                    <ul>
+                                        <li>
+                                            R&D responsible for mechanical design of vehicle suspensions for the new Volvo SPA
+                                            platform, awarded “Car of the year 2018”, among other recognitions.
+                                        </li>
+                                        <li>
+                                            CAE Lead. Improved efficiency of the development process through the introduction of
+                                            CAE methods in the department.
+                                        </li>
+                                    </ul>
+                                    <div class="row align-items-center mb-2">
+                                        <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgVCC" src="/img/VCC.jpg"
+                                                alt="Volvo Cars Logo"></div>
+                                        <div class="col-sm fw-light"><small>Volvo has created world-changing innovations since
+                                                their first car rolled off the production line in 1927. The modern seatbelt. The
+                                                side impact protection system. The pedestrian detection system. Today, Volvo
+                                                Cars is one of the most respected and innovative premium car brands.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="eventSpacer h2 container">
+                            <div id="eventDate5" class="eventDateContainer row">
+                                <div class="lineLeft col-1">
+                                </div>
+                                <div class="eventDate h2 col">2016</div>
+                            </div>
+                        </div>
+
+                        <div id="event5" class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgVEGP" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Volvo Engineering Graduate Program</h5>
+                                        <h6 class="card-subtitle text-muted">At Volvo Car Group</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">I got selected from a pool of 800+ qualified candidates for the
+                                    program and got to work on the latest innovative technologies.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseVEGP" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseVEGP"><small><u>Click here</u> to read more about my work on the
+                                        VEGP</small></p>
+                                <div class="collapse mt-3" id="collapseVEGP">
+                                    <ul>
+                                        <li>
+                                            Worked in top-secret (at the time) projects in collaboration with Uber and Polestar.
+                                        </li>
+                                        <li>
+                                            Led development of software tool that greatly improved interdepartmental efficiency.
+                                        </li>
+                                        <li>
+                                            Worked as a <abbr title="Computer Assisted Engineering">CAE</abbr> Engineer at the
+                                            Vehicle dynamics & Passive Safety departments.
+                                        </li>
+                                    </ul>
+                                    <div class="row align-items-center mb-2">
+                                        <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgVCC" src="/img/VCC.jpg"
+                                                alt="Volvo Cars Logo"></div>
+                                        <div class="col-sm fw-light"><small>Volvo has created world-changing innovations since
+                                                their first car rolled off the production line in 1927. The modern seatbelt. The
+                                                side impact protection system. The pedestrian detection system. Today, Volvo
+                                                Cars is one of the most respected and innovative premium car brands.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="eventSpacer h2 container">
+                            <div id="eventDate6" class="eventDateContainer row">
+                                <div class="lineLeft col-1">
+                                </div>
+                                <div class="eventDate h2 col">2014</div>
+                            </div>
+                        </div>
+
+                        <div id="event6" class="card event">
+                            <div class="card-body">
+                                <div class="row cardTitleContainer">
+                                    <div class="col-auto p-0">
+                                        <div id="imgDiploma" class="eventIcon"></div>
+                                    </div>
+                                    <div class="col p-0">
+                                        <h5 class="card-title">Industrial Product Development degree</h5>
+                                        <h6 class="card-subtitle text-muted">At KTH Royal Institute of Technology</h6>
+                                    </div>
+                                </div>
+                                <p class="card-text mt-3 mb-2">The Swedish applied approach to education perfectly complemented
+                                    my home institution's.</p>
+                                <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseKTH" href="" role="button" aria-expanded="false"
+                                    aria-controls="collapseKTH"><small><u>Click here</u> to read more about my activities at
+                                        KTH</small></p>
+                                <div class="collapse mt-3" id="collapseKTH">
+                                    <p>I went to KTH on a two year long double degree exchange program in collaboration with
+                                        UPM.</p>
+                                    <ul>
+                                        <li>
+                                        Achieved a GPA of <b>A</b>
+                                    </li>
+                                    <li>
+                                        Won Best Master's Thesis work 2014 on strategic R&D tasks for increased efficiency
+                                        and improved ergonomics on forest machines. My work was published by the <a
+                                            href="https://www.istvs.org/">International Society for Terrain-vehicle
+                                            Systems</a>.
+                                    </li>
+                                    <li>
+                                        Led design and manufacturing of a testing machine with <abbr
+                                            title="Data acquisition">DAQ</abbr> for the tribology department.
+                                    </li>
+                                    <li>
+                                        Developed an easy to use software tool to asist engineers in the <abbr
+                                            title="Internal Combustion Engine">ICE</abbr> camshaft design process.
+                                    </li>
+                                </ul>
+                                <div class="row align-items-center mb-2">
+                                    <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgKTH" src="/img/KTH.svg"
+                                            alt="KTH Logo"></div>
+                                    <div class="col-sm fw-light"><small>KTH Royal Institute of Technology is the largest and
+                                            most respected technical university in Sweden, ranked top 100 in the 2021 QS
+                                            World University Rankings.</small></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="event6-2" class="card event mt-3">
+                        <div class="card-body">
+                            <div class="row cardTitleContainer">
+                                <div class="col-auto p-0">
+                                    <div id="imgDiploma" class="eventIcon"></div>
+                                </div>
+                                <div class="col p-0">
+                                    <h5 class="card-title">Industrial Engineering degree</h5>
+                                    <h6 class="card-subtitle text-muted">At Universidad Politécnica de Madrid</h6>
+                                </div>
+                            </div>
+                            <p class="card-text mt-3 mb-2">Throught this ABET accredited BS+MSc degree I became an
+                                outstanding problem solver and learned to work hard and effectively under pressure.</p>
+                            <p class="card-text mb-0 text-center text-muted" data-bs-toggle="collapse"
+                                data-bs-target="#collapseUPM" href="" role="button" aria-expanded="false"
+                                aria-controls="collapseUPM"><small><u>Click here</u> to read more about my activities at
+                                    UPM</small></p>
+                            <div class="collapse mt-3" id="collapseUPM">
+                                <ul>
+                                    <li>
+                                        Achieved distinction in Computer Science
+                                    </li>
+                                    <li>
+                                        Top mark on master's thesis
+                                    </li>
+                                    <li>
+                                        Captained and managed the university's rugby team
+                                    </li>
+                                    <li>
+                                        Worked as an intern in the Computer Science department
+                                    </li>
+                                </ul>
+                                <div class="row align-items-center mb-2">
+                                    <div class="col-sm-auto text-center my-2 ps-sm-4"><img id="imgUPM" src="/img/UPM.png"
+                                            alt="UPM Logo"></div>
+                                    <div class="col-sm fw-light"><small>According to the <a
+                                                href="https://www.elmundo.es/especiales/2008/05/cultura/50carreras/concertados.html">annual
+                                                university ranking conducted by El Mundo</a>, at the time the Technical
+                                            University of Madrid ranked as the top technical university in Spain, and second
+                                            overall. The majority of its Engineering Schools are consistently ranked as
+                                            leading academic institutions in Spain in their fields, and among the very best
+                                            in Europe.</small></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eventSpacer h2 container">
+                        <div id="eventDate7" class="eventDateContainer row">
+                            <div class="lineLeft col-1">
+                            </div>
+                            <div class="eventDate h2 col">2008</div>
+                        </div>
+                    </div>
+
+                    <div id="event7" class="card event">
+                        <div class="card-body">
+                            <div class="row cardTitleContainer">
+                                <div class="col-auto p-0">
+                                    <div id="imgGrad" class="eventIcon"></div>
+                                </div>
+                                <div class="col p-0">
+                                    <h5 class="card-title">Graduated High School with Honors</h5>
+                                    <h6 class="card-subtitle text-muted">Achieved a GPA of 9.3/10</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup>
+    useHead({
+        title: 'Federico Baez - My work life',
+        script: [
+            { src: '/js/my-work-life.js', defer: true, body: true }
+        ]
+    })
+</script>

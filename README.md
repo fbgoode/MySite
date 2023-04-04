@@ -24,16 +24,6 @@
 
 The website was built with Vue, Nuxt and <a href="#dependencies">a couple libraries</a>. It works in any modern browser, including mobile.
 
-<p align="center">
-<img src="img/screenshot1.png"><br>
-<sub>Screenshot (PC, Chrome v87) - My Work Life header</sub>
-</p><br>
-
-<p align="center">
-<img src="img/screenshot2.png" width=400><br>
-<sub>Screenshot (PC, Chrome v87, mobile dimensions) - My Work Life timeline</sub>
-</p>
-
 </td>
 </tr>
 </table>

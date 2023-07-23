@@ -3,7 +3,7 @@
         <div id="titulo" class="col mt-5 pt-3">
             <h1 class="display-3">Hit me up</h1>
             <p class="lead pb-3">
-                I'll be glad to get your message
+                I'll be happy to get your message
             </p>
             <hr class="mt-5">
         </div>

@@ -18,11 +18,7 @@ export default defineNuxtConfig({
                     integrity: 'sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW',
                     crossorigin: 'anonymous',
                     defer: true
-                },
-                { src: '/js/lib/jquery.min.js', defer: true },
-                { src: '/js/lib/TweenMax.min.js', defer: true },
-                { src: '/js/lib/ScrollMagic.min.js', defer: true },
-                { src: '/js/lib/animation.gsap.min.js', defer: true }
+                }
             ],
             link: [
                 {
@@ -34,6 +30,10 @@ export default defineNuxtConfig({
                 { rel: 'stylesheet', href: '/css/style.css' },
                 { rel: 'shortcut icon', href: '/img/favicon.svg' }
             ],
-        }
-    }
+            bodyAttrs: {
+                class: 'bg-light'
+            }
+        },
+    },
+    ssr: false
 })

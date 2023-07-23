@@ -20,9 +20,9 @@
 <tr>
 <td>
   
-**Fbaez.com** is a personal website that shows both the author's main personal & professional life events. The events are presented along a timeline in a visual way assisted by **animated transitions**. It also includes a simple Contact section.
+**Fbaez.com** is my personal website, where you can find out about me through my most important life events. The events are presented along a timeline with animated transitions.
 
-The website was built with Vue, Nuxt and <a href="#dependencies">a couple libraries</a>. It works in any modern browser, including mobile.
+The website was originally a static html+css+js site. I turned it into a simple Nuxt/Vue3 project to be able to divide it into reusable components and make it easier to update its content.
 
 </td>
 </tr>
@@ -30,9 +30,9 @@ The website was built with Vue, Nuxt and <a href="#dependencies">a couple librar
 
 ## Usage
 
-You may access the website on <a href="http://fbaez.com">www.fbaez.com</a>.
+You can find the website on <a href="http://fbaez.com">www.fbaez.com</a>.
 
-You're welcome to borrow the source code and use it as a template for your own personal website.
+You're welcome to borrow the source code and use it as a template for your own personal site. Run the development server locally <a href="https://nuxt.com/docs/getting-started/installation#development-server">like in any other Nuxt project</a>.
 
 <br>
 
@@ -40,10 +40,9 @@ You're welcome to borrow the source code and use it as a template for your own p
 
 * <a href="https://nuxt.com/">Nuxt/Vue3</a> - JS framework.
 * <a href="https://getbootstrap.com/">Bootstrap</a> - Easy styles.
-* <a href="http://scrollmagic.io/">ScrollMagic</a> - React to the user's current scroll position.
-* <a href="https://greensock.com/gsap/">GSAP</a> - Animation engine, for scrolling animations.
+* <a href="https://greensock.com/gsap/">GSAP</a> - Animation engine, for the scroll animations.
 
 ## Features
 
 * Responsive
-* Contains an original timeline widget with scrollbar-linked transitions
+* Contains an original timeline component with scrollbar-based animations

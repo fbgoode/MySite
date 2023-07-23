@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <main>
+  <main class="bg-white">
     <NuxtPage />
   </main>
   <Footer />

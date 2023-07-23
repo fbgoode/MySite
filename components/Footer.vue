@@ -25,15 +25,6 @@
                     <img src="/img/signature.svg" alt="Signature" width="100%">
                 </div>
             </div>
-            <div class="row justify-content-center pt-2">
-                <div class="col-auto text-muted">
-                    <small>Last updated: {{ date }}</small>
-                </div>
-            </div>
         </div>
     </div>
 </template>
-
-<script setup lang="ts">
-const date = (await useFetch('/api/date')).data;
-</script>
